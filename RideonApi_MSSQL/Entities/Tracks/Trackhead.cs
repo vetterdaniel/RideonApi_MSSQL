@@ -18,9 +18,9 @@ public class Trackhead
 
     public string? Description { get; set; }
 
-    public ICollection<Mtbtrack> Mtbtracks { get; } = new List<Mtbtrack>();
+    public ICollection<Mtbtrack>? Mtbtracks { get; set; }
 
-    public ICollection<Parking> Parkings { get; } = new List<Parking>();    
+    public ICollection<Parking>? Parkings { get; set; }
 
 }
 
